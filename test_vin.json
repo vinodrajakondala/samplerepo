@@ -1,0 +1,30 @@
+{
+  "test1": [],
+  "test2": [
+    {}
+  ],
+  "test3": [
+    {}
+  ],
+  "test4": {
+    "APP_NAME": "test_vinod",
+    "BIE_ENV": "test",
+    "KAFKA_CONSUME_MODE": "basic",
+    "KAFKA_CONSUMER_GROUP_ID": "management-5",
+    "ASYNCIO_QUEUE_MAXSIZE": "10",
+    "BATCH_SIZE": "50000",
+    "BATCH_SEC": "300",
+    "KAFKA_TOPICS": "a.b,asdnal,asdknaljs.pub,ajsbdkajs,vinod_tes.com,new_topic.com",
+    "PRODUCT_SOURCE": "management",
+    "KAFKA_CONSUMER_SESSION_TIMEOUT_MS": "300000",
+    "KAFKA_CONSUMER_MAX_POLL_INTERVAL_MS": "1000000",
+    "BIE_SF_SCHEMA": "MANAGEMENT"
+  },
+  "test5": 5,
+  "test6": "vinod.kondala.com",
+  "test7_PROJECT": "Auto PR Creation",
+  "GLOBAL_TIER_SLA": "app:dev",
+  "GLOBAL_DATA_CLASS": "private",
+  "CONTACT": "test@vkd.com",
+  "type": "testing"
+}

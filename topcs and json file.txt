@@ -1,0 +1,667 @@
+dataservicesnonprod/seq-weekend-rds-nonprod/weekend_db.analytics.calendly_event_data/us-east4.gcp
+
+dataservicesnonprod-seq-weekend-rds-nonprod-weekend_db.analytics.calendly_event_data/us-east4.gcp
+
+ dataservices/wwi-coaching-main/prod.coach_prototype.accounts_trainerprofile_languages/us-east4.gcp
+  dataservices-wwi-coaching-main-prod.coach_prototype.accounts_trainerprofile_languages/us-east4.gcp
+wwi-coaching-main
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-coach_prototype-1',
+  'KAFKA_TOPICS': 'dataservices-wwi-coaching-main-prod.coach_prototype.accounts_trainerprofile_clientele,dataservices-wwi-coaching-main-prod.coach_prototype.auth_user_user_permissions',
+  'file_path': 'nonprod-coach-prototype-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'preprod-broadleaf-pricing-master-3',
+  'KAFKA_TOPICS': 'dataservices-pricing-master-prod-postgres.broadleaf.blc_add_on_price_data,dataservices-pricing-master-prod-postgres.broadleaf.blc_add_on_sku_price_data',
+  'file_path': 'preprod-broadleaf-pricing-master-2.json'
+}
+
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bie-preprod-uas-members-event-1',
+  'KAFKA_TOPICS': 'mobile-uas-members-event',
+  'file_path': 'preprod-uas-members-event-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bie-preprod-uas-perf-1',
+  'KAFKA_TOPICS': 'mobile-uas-members-performance',
+  'file_path': 'preprod-uas-members-perf-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bie-anonymization-request-1',
+  'KAFKA_TOPICS': 'core-anonymization-request-prod',
+  'file_path': 'prod-anonymization-requests.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-assessment',
+  'KAFKA_TOPICS': 'dataservices-assessment-prod.ASSESSMENT.assessments,dataservices-assessment-prod.ASSESSMENT.memberanswers',
+  'file_path': 'prod-assessment.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-broadleaf-pricing-master-2',
+  'KAFKA_TOPICS': 'dataservices-pricing-master-prod-postgres.broadleaf.blc_add_on_price_data,dataservices-pricing-master-prod-postgres.broadleaf.blc_add_on_sku_price_data',
+  'file_path': 'prod-broadleaf-pricing-master-2.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bie-celebrations-1',
+  'KAFKA_TOPICS': 'engagement-celebrations-mongo-prod.celebrations.achievements,engagement-celebrations-mongo-prod.celebrations.optin_rule',
+  'file_path': 'prod-celebrations-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-champ-eufs-1',
+  'KAFKA_TOPICS': 'dataservices-wwieumgp_cdc-MRAEU-EUFS_WW_USER,dataservices-wwieumgp_cdc-MRAEU-EUFS_MEMBER_MILESTONE',
+  'file_path': 'prod-champ-eufs-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-cmx-au-1',
+  'KAFKA_TOPICS': 'dataservices-cmx_prod_au-prod.PROD_AU.memberfoods,dataservices-cmx_prod_au-prod.PROD_AU.membermeals',
+  'file_path': 'prod-cmx-au.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-cmx-be-1',
+  'KAFKA_TOPICS': 'dataservices-cmx_prod_be-prod.PROD_BE.memberfoods,dataservices-cmx_prod_be-prod.PROD_BE.membermeals',
+  'file_path': 'prod-cmx-be.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-cmx-br-1',
+  'KAFKA_TOPICS': 'dataservices-cmx_prod_br-prod.PROD_BR.memberfoods,dataservices-cmx_prod_br-prod.PROD_BR.membermeals',
+  'file_path': 'prod-cmx-br.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-cmx-ca-1',
+  'KAFKA_TOPICS': 'dataservices-cmx_prod_ca-prod.PROD_CA.memberfoods,dataservices-cmx_prod_ca-prod.PROD_CA.membermeals',
+  'file_path': 'prod-cmx-ca.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-cmx-ch-1',
+  'KAFKA_TOPICS': 'dataservices-cmx_prod_ch-prod.PROD_CH.memberfoods,dataservices-cmx_prod_ch-prod.PROD_CH.membermeals',
+  'file_path': 'prod-cmx-ch.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-cmx-co-uk-1',
+  'KAFKA_TOPICS': 'dataservices-cmx_prod_co_uk-prod.PROD_CO_UK.memberfoods,dataservices-cmx_prod_co_uk-prod.PROD_CO_UK.membermeals',
+  'file_path': 'prod-cmx-co-uk.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-cmx-consolidated',
+  'KAFKA_TOPICS': 'cmx-space-spacecontents-avro-prod.CONTENT.spacecontents,cmx-space-contentelements-avro-prod.CONTENT.contentelements',
+  'file_path': 'prod-cmx-consolidated.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-cmx-de-1',
+  'KAFKA_TOPICS': 'dataservices-cmx_prod_de-prod.PROD_DE.memberfoods,dataservices-cmx_prod_de-prod.PROD_DE.membermeals',
+  'file_path': 'prod-cmx-de.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-cmx-fr-1',
+  'KAFKA_TOPICS': 'dataservices-cmx_prod_fr-prod.PROD_FR.memberfoods,dataservices-cmx_prod_fr-prod.PROD_FR.membermeals',
+  'file_path': 'prod-cmx-fr.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-cmx-nl-1',
+  'KAFKA_TOPICS': 'dataservices-cmx_prod_nl-prod.PROD_NL.memberfoods,dataservices-cmx_prod_nl-prod.PROD_NL.membermeals',
+  'file_path': 'prod-cmx-nl.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-cmx-se-1',
+  'KAFKA_TOPICS': 'dataservices-cmx_prod_se-prod.PROD_SE.memberfoods,dataservices-cmx_prod_se-prod.PROD_SE.membermeals',
+  'file_path': 'prod-cmx-se.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-cmx-2',
+  'KAFKA_TOPICS': 'cmx-memberfoods-avro-prod.PROD_US.memberfoods,cmx-membermeals-avro-prod.PROD_US.membermeals',
+  'file_path': 'prod-cmx-us.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-commercedb-1',
+  'KAFKA_TOPICS': 'dataservices-wwi-commercedb-prod.dataservices-wwi-commercedb-prod-wwi_commercedb_prod,dataservices-wwi-commercedb-prod-wwi_commercedb_prod.public.user_subscription',
+  'file_path': 'prod-commercedb-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-community-groups-1',
+  'KAFKA_TOPICS': 'dataservices-wwi-community-groups-groupsdb.public.debezium_heartbeat,dataservices-wwi-community-groups-groupsdb.public.group_members',
+  'file_path': 'prod-community-groups-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-connect-1',
+  'KAFKA_TOPICS': 'dataservices-wwi-connect-prod-wwi_connect_prod.connect.taggings,dataservices-wwi-connect-prod-wwi_connect_prod.connect.user_totals',
+  'file_path': 'prod-connect-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-crm-prod-main-1',
+  'KAFKA_TOPICS': 'dataservices-crm-prod-main-pg-23x-crm_main.public.audit_log_y2024m9_12,dataservices-crm-prod-main-pg-23x-crm_main.public.audit_log_y2024m1_4',
+  'file_path': 'prod-crm-prod-main-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-crm-prod-member-1',
+  'KAFKA_TOPICS': 'dataservices-crm-prod-member-pg-crm_member.public.credit,dataservices-crm-prod-member-pg-crm_member.public.ecomm_order_item',
+  'file_path': 'prod-crm-prod-member-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-dotcom-au-1',
+  'KAFKA_TOPICS': 'dataservices-wwipaumn_cdc-WWAU-AU_COUNTRY,dataservices-wwipaumn_cdc-WWAU-AU_RECURLY_PAYMENT_MIGRATION',
+  'file_path': 'prod-dotcom-au-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-dotcom-be-fb-1',
+  'KAFKA_TOPICS': 'dataservices-wwipbemn_cdc-WWBE_FR-FB_CREDIT_ACCOUNT_EVENT,dataservices-wwipbemn_cdc-WWBE_FR-FB_CREDIT_ACCOUNT_OFFER',
+  'file_path': 'prod-dotcom-be-fb-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-dotcom-be-nb-1',
+  'KAFKA_TOPICS': 'dataservices-wwipbemn_cdc-WWBE_NL-NB_RECURLY_PAYMENT_MIGRATION,dataservices-wwipbemn_cdc-WWBE_NL-NB_COUNTRY',
+  'file_path': 'prod-dotcom-be-nb-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-dotcom-br-1',
+  'KAFKA_TOPICS': 'dataservices-wwipbrmn_cdc-WWBR-BR_COUNTRY,dataservices-wwipbrmn_cdc-WWBR-BR_STATE',
+  'file_path': 'prod-dotcom-br-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-dotcom-ca-ca-1',
+  'KAFKA_TOPICS': 'dataservices-wwipcamn_cdc-WWCA-CA_RECURLY_PAYMENT_MIGRATION,dataservices-wwipcamn_cdc-WWCA-CA_CREDIT_ACCOUNT_EVENT',
+  'file_path': 'prod-dotcom-ca-ca-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-dotcom-ca-fc-1',
+  'KAFKA_TOPICS': 'dataservices-wwipcamn_cdc-WWFC-FC_RECURLY_PAYMENT_MIGRATION,dataservices-wwipcamn_cdc-WWFC-FC_COUNTRY',
+  'file_path': 'prod-dotcom-ca-fc-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-dotcom-ch-cd-1',
+  'KAFKA_TOPICS': 'dataservices-wwipchmn_cdc-WWCH_DE-CD_COUNTRY,dataservices-wwipchmn_cdc-WWCH_DE-CD_STATE',
+  'file_path': 'prod-dotcom-ch-cd-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-dotcom-ch-cf-1',
+  'KAFKA_TOPICS': 'dataservices-wwipchmn_cdc-WWCH_FR-CF_COUNTRY,dataservices-wwipchmn_cdc-WWCH_FR-CF_STATE',
+  'file_path': 'prod-dotcom-ch-cf-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-dotcom-de-1',
+  'KAFKA_TOPICS': 'dataservices-wwipdemn_cdc-WWDE-DE_RECURLY_PAYMENT_MIGRATION,dataservices-wwipdemn_cdc-WWDE-DE_COUNTRY',
+  'file_path': 'prod-dotcom-de-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-dotcom-fr-1',
+  'KAFKA_TOPICS': 'dataservices-wwipfrmn_cdc-WWFR-FR_COUNTRY,dataservices-wwipfrmn_cdc-WWFR-FR_STATE',
+  'file_path': 'prod-dotcom-fr-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-dotcom-nl-1',
+  'KAFKA_TOPICS': 'dataservices-wwipnlmn_cdc-WWNL-NL_RECURLY_PAYMENT_MIGRATION,dataservices-wwipbemn_cdc-WWBE_NL-NB_CREDIT_ACCOUNT_EVENT',
+  'file_path': 'prod-dotcom-nl-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-dotcom-se-1',
+  'KAFKA_TOPICS': 'dataservices-wwipsemn_cdc-WWSE-SE_COUNTRY,dataservices-wwipsemn_cdc-WWSE-SE_STATE',
+  'file_path': 'prod-dotcom-se-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-dotcom-uk-1',
+  'KAFKA_TOPICS': 'dataservices-wwipukmn_cdc-WWEU-UK_COUNTRY,dataservices-wwipukmn_cdc-WWEU-UK_STATE',
+  'file_path': 'prod-dotcom-uk-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-dotcom-us-1',
+  'KAFKA_TOPICS': 'dataservices-wwipusmn_cdc-WWNA-US_COUNTRY,dataservices-wwipusmn_cdc-WWNA-US_MEMBER_ADDON',
+  'file_path': 'prod-dotcom-us-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bie-emeet-1',
+  'KAFKA_TOPICS': 'dataservices-wwi-emeet-prod-prod.emeet.attendance,dataservices-wwi-emeet-prod-prod.emeet.debezium_heartbeat',
+  'file_path': 'prod-emeet-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-experiment-1',
+  'KAFKA_TOPICS': 'dataservices-wwi-experiment-service-prod-experiment_service_prod.public.app_members,dataservices-wwi-experiment-service-prod-experiment_service_prod.public.owner',
+  'file_path': 'prod-experiment-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-experiment-v2-1',
+  'KAFKA_TOPICS': 'dataservices-wwi-experiment-service-prod-experiment_service_prod.v2.apps,dataservices-wwi-experiment-service-prod-experiment_service_prod.v2.constraint_operators',
+  'file_path': 'prod-experiment-v2.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-gpc-preferences-1',
+  'KAFKA_TOPICS': 'growth-gpc-preferences-prod',
+  'file_path': 'prod-gpc-preferences-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-gpf-pricing-promotion-1',
+  'KAFKA_TOPICS': 'dataservices-wwi-gpf-pricing-and-promotion-prod-gpf_pricing_and_promotion.main.client,dataservices-wwi-gpf-pricing-and-promotion-prod-gpf_pricing_and_promotion.main.offer_plan_contract_schedule',
+  'file_path': 'prod-gpf-pricing-promotion-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-gpf-subscription-management-1',
+  'KAFKA_TOPICS': 'dataservices-wwi-gpf-subscription-management-prod-gpf_subscription_management.main.payment_notification,dataservices-wwi-gpf-subscription-management-prod-gpf_subscription_management.main.other_notification',
+  'file_path': 'prod-gpf-sub-management-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-growth-exposure-1',
+  'KAFKA_TOPICS': 'growth-xs-exposures',
+  'file_path': 'prod-growth-exposure-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-growth-iap-prod-1',
+  'KAFKA_TOPICS': 'dataservices-wwi-growth-iap-prod-growth_iap_prod.public.android_notifications,dataservices-wwi-growth-iap-prod-growth_iap_prod.public.android_notifications_raw',
+  'file_path': 'prod-growth-iap-prod-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-subscription-1',
+  'KAFKA_TOPICS': 'growth-subscription-services-cancellation-prod,growth-subscription-services-retention-prod',
+  'file_path': 'prod-growth-sub-services-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-health-tracking-2',
+  'KAFKA_TOPICS': 'dataservices-wwi-health-tracking-service-prod-health_tracking_service.public.favorites,dataservices-wwi-health-tracking-service-prod-health_tracking_service.public.localizedActivities',
+  'file_path': 'prod-health-tracking-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-iaf-all-1',
+  'KAFKA_TOPICS': 'dataservices-wwi-iaf-all-iaf_prod.main.legacy_referrals,dataservices-wwi-iaf-all-iaf_prod.main.legacy_tokens',
+  'file_path': 'prod-iaf-all-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-idb-dimensions-1',
+  'KAFKA_TOPICS': 'ops-idb-api-prod.idb-prod.dimensions,ops-parc-idb-api-prod.idb-prod.dimensions',
+  'file_path': 'prod-idb-dimensions.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-identity-1',
+  'KAFKA_TOPICS': 'dataservices-wwi-identity-prod-identity_service.identity.member_timezone,dataservices-wwi-identity-prod-identity_service.identity.member',
+  'file_path': 'prod-identity-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-kurbo-1',
+  'KAFKA_TOPICS': 'dataservices-wwi_kurbo-wwi_kurbo.main.audits,dataservices-wwi_kurbo-wwi_kurbo.main.badge_tiers',
+  'file_path': 'prod-kurbo-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-meal-planning-1',
+  'KAFKA_TOPICS': 'dataservices-wwi-meal-planning-service-prod-meal_planning_service.main.PremadeMealPlan,dataservices-wwi-meal-planning-service-prod-meal_planning_service.main.MealPlan',
+  'file_path': 'prod-meal-planning-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-metadata-api-1',
+  'KAFKA_TOPICS': 'dataservices-wwi-metadata-api-prod-experience_engine_prod.public.resource_subscriptions,dataservices-wwi-metadata-api-prod-experience_engine_prod.public.resource_markets',
+  'file_path': 'prod-metadata-api.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-mule-studio-tech-1',
+  'KAFKA_TOPICS': 'dataservices-wwi-mule-integration-prod.dataservices-wwi-mule-integration-prod-mule_studio_tech,dataservices-wwi-mule-integration-prod-mule_studio_tech.main.us_locations_open_hours',
+  'file_path': 'prod-mule-studio-tech-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-mule-workday-1',
+  'KAFKA_TOPICS': 'dataservices-wwi-mule-integration-prod.dataservices-wwi-mule-integration-prod-mule_workday,dataservices-wwi-mule-integration-prod-mule_workday.main.ecomm_employee_failure',
+  'file_path': 'prod-mule-workday-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-myday-journal-1',
+  'KAFKA_TOPICS': 'dataservices-wwi-myday-journal-prod-myday_journal_prod.main.things_to_do',
+  'file_path': 'prod-myday-journal-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-peppermint',
+  'KAFKA_TOPICS': 'dataservices-wwi-peppermint-integration-prod-peppermint_integration.waitlist.users_data,dataservices-wwi-peppermint-integration-prod-peppermint_integration.waitlist.users',
+  'file_path': 'prod-peppermint-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-predictive-tracking-1',
+  'KAFKA_TOPICS': 'dataservices-wwi-predictive-tracking-service-prod.dataservices-wwi-predictive-tracking-service-prod-predictive_tracking_service,dataservices-wwi-predictive-tracking-service-prod-predictive_tracking_service.public.food_associations',
+  'file_path': 'prod-predictive-tracking-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-purchase-funnel-1',
+  'KAFKA_TOPICS': 'dataservices-wwi-upper-purchase-funnel-directus_prod.main.directus_operations,dataservices-wwi-upper-purchase-funnel-directus_prod.main.directus_presets',
+  'file_path': 'prod-purchase-funnel.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bie-recovery-aws-job',
+  'KAFKA_TOPICS': '',
+  'file_path': 'prod-recovery-aws-job.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-recovery-gcs-job',
+  'KAFKA_TOPICS': '',
+  'file_path': 'prod-recovery-gcs-job.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-sendbird-1',
+  'KAFKA_TOPICS': 'intg-sendbird_changed-prod,intg-sendbird_create-prod',
+  'file_path': 'prod-sendbird-1.json'
+}
+
+
+dataservicesnonprod/seq-weekend-rds-nonprod/weekend_db.analytics.calendly_event_data/us-east4.gcp
+dataservicesnonprod-seq-weekend-rds-nonprod-weekend_db.analytics.calendly_event_data/us-east4.gcp
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-sequence-weekend-1',
+  'KAFKA_TOPICS': 'dataservices-seq-weekend-rds-prod-weekend_db.public.employment_period,dataservices-seq-weekend-rds-prod-weekend_db.public.pbm_hint_matching_rule',
+  'file_path': 'prod-sequence-weekend.json'
+}sequence
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-sleep-1',
+  'KAFKA_TOPICS': 'dataservices-wwi-sleep-prod-wwi_sleep_prod.main.sleep_settings,dataservices-wwi-sleep-prod-wwi_sleep_prod.main.sleep',
+  'file_path': 'prod-sleep-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-studio-1',
+  'KAFKA_TOPICS': 'dataservices-wwi-studio-prod-studio.activity.checkIn, dataservices-wwi-studio-prod-studio.activity.event_queue',
+  'file_path': 'prod-studio.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bie-uas-1',
+  'KAFKA_TOPICS': 'mobile-uas-members-contentrating,mobile-uas-members-itemreturned',
+  'file_path': 'prod-uas-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bie-uas-members-event-1',
+  'KAFKA_TOPICS': 'mobile-uas-members-event',
+  'file_path': 'prod-uas-members-event-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bie-uas-members-performance-1',
+  'KAFKA_TOPICS': 'mobile-uas-members-performance',
+  'file_path': 'prod-uas-members-performance-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bie-uas-members-req-blocks-1',
+  'KAFKA_TOPICS': 'mobile-uas-members-screenrequest,mobile-uas-members-screenblockserved',
+  'file_path': 'prod-uas-members-req-blocks-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bie-uas-members-screenblockimpression-1',
+  'KAFKA_TOPICS': 'mobile-uas-members-screenblockimpression',
+  'file_path': 'prod-uas-members-screenblock-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-veggie-1',
+  'KAFKA_TOPICS': 'dataservices-wwi-veggie-service-prod-wwi_veggie_service_prod.main.veggie',
+  'file_path': 'prod-veggie-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-water-2',
+  'KAFKA_TOPICS': 'dataservices-wwi-water-prod-wwi_water_prod.main.debezium_heartbeat,dataservices-wwi-water-prod-wwi_water_prod.main.schemaversion',
+  'file_path': 'prod-water-2.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-wellness-journal-1',
+  'KAFKA_TOPICS': 'dataservices-wwi-wellness-journal-service-prod-wellness_journal_service.main.answerWeight,dataservices-wwi-wellness-journal-service-prod-wellness_journal_service.main.answers',
+  'file_path': 'prod-wellness-journal-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-wine-1',
+  'KAFKA_TOPICS': 'dataservices-wine-prod.PROD-WINE.items',
+  'file_path': 'prod-wine-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-wwhs_general_prod',
+  'KAFKA_TOPICS': 'dataservices-wwhs-general-prod-wwhs_general_prod.logger.jobRun,dataservices-wwhs-general-prod-wwhs_general_prod.client.vendors',
+  'file_path': 'prod-wwhs-general.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-wwhs_termination_prod-eligibility',
+  'KAFKA_TOPICS': 'dataservices-wwhs_termination_prod-wwhs_termination_prod.eligibility.eligibility',
+  'file_path': 'prod-wwhs-termination-prod-eligibility.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'prod-zoom-event-management-1',
+  'KAFKA_TOPICS': 'dataservices-wwi-zoom-service-prod.dataservices-wwi-zoom-service-prod-wwi_zoom_service_prod,dataservices-wwi-zoom-service-prod-wwi_zoom_service_prod.main.registrations',
+  'file_path': 'prod-zoom-event-management.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bie-zoom-events-1',
+  'KAFKA_TOPICS': 'growth-zoom-meeting_participant_jbh_joined,growth-zoom-meeting_registration_created',
+  'file_path': 'prod-zoom-events-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-anonymization-request-1',
+  'KAFKA_TOPICS': 'corenonprod-anonymization-request-qat2',
+  'file_path': 'nonprod-anonymization-requests.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'nonprod-assessment-1',
+  'KAFKA_TOPICS': 'dataservicesnonprod-assessment-nonprod.ASSESSMENT.assessments,dataservicesnonprod-assessment-nonprod.ASSESSMENT.memberanswers',
+  'file_path': 'nonprod-assessment.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-cdc-oracle-au',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwiqaumn_cdc-WWAU-AU_MEMBER_CREDIT,dataservicesnonprod-wwiqaumn_cdc-WWAU-AU_EMAIL_DISTRIBUTION',
+  'file_path': 'nonprod-cdc-oracle-au.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-cdc-oracle-be_fr',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwiqbemn_cdc-WWBE_FR-FB_XXAR_TRANSACTION_INTERFACE_H,dataservicesnonprod-wwiqbemn_cdc-WWBE_FR-FB_MEMBER_UUID_MAP',
+  'file_path': 'nonprod-cdc-oracle-be-fr.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-cdc-oracle-be_nl',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwiqbemn_cdc-WWBE_NL-NB_MEMBER_UUID_MAP,dataservicesnonprod-wwiqbemn_cdc-WWBE_NL-NB_MEMBER_TO_ROLE',
+  'file_path': 'nonprod-cdc-oracle-be-nl.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-cdc-oracle-br',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwiqbrmn_cdc-WWBR-BR_MEMBER_CREDIT,dataservicesnonprod-wwiqbrmn_cdc-WWBR-BR_MEMBER_REFERRAL',
+  'file_path': 'nonprod-cdc-oracle-br.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-cdc-oracle-ca_ca',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwiqcamn_cdc-WWCA-CA_XXAR_TRANSACTION_INTERFACE_H,dataservicesnonprod-wwiqcamn_cdc-WWCA-CA_MEMBER_UUID_MAP',
+  'file_path': 'nonprod-cdc-oracle-ca-ca.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-cdc-oracle-ca_fc',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwiqcamn_cdc-WWFC-FC_MEMBER_CREDIT,dataservicesnonprod-wwiqcamn_cdc-WWFC-FC_MEMBER_REFERRAL',
+  'file_path': 'nonprod-cdc-oracle-ca-fc.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-cdc-oracle-ch_de',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwiqchmn_cdc-WWCH_DE-CD_XXAR_TRANSACTION_INTERFACE_H,dataservicesnonprod-wwiqchmn_cdc-WWCH_DE-CD_MEMBER_TO_ROLE',
+  'file_path': 'nonprod-cdc-oracle-ch-de.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-cdc-oracle-ch_fr',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwiqchmn_cdc-WWCH_FR-CF_MEMBER_UUID_MAP,dataservicesnonprod-wwiqchmn_cdc-WWCH_FR-CF_MEMBER_TO_ROLE',
+  'file_path': 'nonprod-cdc-oracle-ch-fr.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-cdc-oracle-de',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwiqdemn_cdc-WWDE-DE_MEMBER_CREDIT,dataservicesnonprod-wwiqdemn_cdc-WWDE-DE_MEMBER_REFERRAL',
+  'file_path': 'nonprod-cdc-oracle-de.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-cdc-oracle-fr',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwiqfrmn_cdc-WWFR-FR_MEMBER_REFERRAL,dataservicesnonprod-wwiqfrmn_cdc-WWFR-FR_EMAIL_DISTRIBUTION',
+  'file_path': 'nonprod-cdc-oracle-fr.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-cdc-oracle-nl',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwiqnlmn_cdc-WWNL-NL_MEMBER_CREDIT,dataservicesnonprod-wwiqnlmn_cdc-WWNL-NL_EMAIL_DISTRIBUTION',
+  'file_path': 'nonprod-cdc-oracle-nl.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-cdc-oracle-se',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwiqsemn_cdc-WWSE-SE_MEMBER_CREDIT,dataservicesnonprod-wwiqsemn_cdc-WWSE-SE_MEMBER_REFERRAL',
+  'file_path': 'nonprod-cdc-oracle-se.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-cdc-oracle-uk',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwiqukmn_cdc-WWEU-UK_MEMBER_REFERRAL,dataservicesnonprod-wwiqukmn_cdc-WWEU-UK_EMAIL_DISTRIBUTION',
+  'file_path': 'nonprod-cdc-oracle-uk.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-cdc-oracle-us',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwiqusmn_cdc-WWNA-US_EMAIL_DISTRIBUTION,dataservicesnonprod-wwiqusmn_cdc-WWNA-US_MEMBER_UUID_MAP',
+  'file_path': 'nonprod-cdc-oracle-us.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-champ-eufs-1',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwieumgt_cdc-MRAEU-EUFS_WW_SUBSCRIPTION_TYPE,dataservicesnonprod-wwieumgt_cdc-MRAEU-EUFS_MEG_SUBSCRIPTION_TYPE',
+  'file_path': 'nonprod-champ-eufs-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-cmx-2',
+  'KAFKA_TOPICS': 'cmxnonprod-wwfoods-avro-qat2.QAT2_US.wwfoods,cmxnonprod-wwmeals-avro-qat2.QAT2_US.wwmeals',
+  'file_path': 'nonprod-cmx-2.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'nonprod-commercedb-1',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwi-commercedb-qat2.dataservicesnonprod-wwi-commercedb-qat2-wwi_commercedb_qat2,dataservicesnonprod-wwi-commercedb-qat2-wwi_commercedb_qat2.public.iap_notification_events',
+  'file_path': 'nonprod-commercedb-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-connect-staging-2',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwi-connect-staging-wwi_connect_staging.connect.channels,dataservicesnonprod-wwi-connect-staging-wwi_connect_staging.connect.likes',
+  'file_path': 'nonprod-connect-staging-2.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'nonprod-crm-qat2-main-pg-1',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwi-crm-qat2-main-pg.dataservicesnonprod-wwi-crm-qat2-main-pg-crm_main,dataservicesnonprod-wwi-crm-qat2-main-pg-crm_main.public.audit_log_y2023m1_4',
+  'file_path': 'nonprod-crm-qat2-main-pg.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-dimensions',
+  'KAFKA_TOPICS': 'opsnonprod-idb-dimensions-dev',
+  'file_path': 'nonprod-dimensions.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'nonprod-engagement-1',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwi-engagement-nonprod-engagement.public.ActiveStreak,dataservicesnonprod-wwi-engagement-nonprod-engagement.public.StreakHistory',
+  'file_path': 'nonprod-engagement.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-gpc-preferences-1',
+  'KAFKA_TOPICS': 'growthnonprod-gpc-preferences-qat2',
+  'file_path': 'nonprod-gpc-prefernces.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-gpf-pricing-promotion-1',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwi-gpf-pricing-and-promotion-qa-gpf_pricing_and_promotion.main.channel,dataservicesnonprod-wwi-gpf-pricing-and-promotion-qa-gpf_pricing_and_promotion.main.coupon_pricing',
+  'file_path': 'nonprod-gpf-pricing-promotion.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-gpf-subscription-dev-1',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwi-gpf-subscription-management-dev-gpf_subscription_management.main.account_notification,dataservicesnonprod-wwi-gpf-subscription-management-dev-gpf_subscription_management.main.credit_payment_notification',
+  'file_path': 'nonprod-gpf-sub-management-dev.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-gpf-subscription-management-1',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwi-gpf-subscription-management-qa-gpf_subscription_management.main.payment_notification,dataservicesnonprod-wwi-gpf-subscription-management-qa-gpf_subscription_management.main.credit_payment_notification',
+  'file_path': 'nonprod-gpf-sub-management.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-subscription-1',
+  'KAFKA_TOPICS': 'growthnonprod-subscription-services-cancellation-qat2,growthnonprod-subscription-services-retention-qat2',
+  'file_path': 'nonprod-growth-subscription-services.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-health-tracking',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwi-health-tracking-service-qa-health_tracking_service_qa.public.devicesInfo,dataservicesnonprod-wwi-health-tracking-service-qa-health_tracking_service_qa.public.membersToDisconnect',
+  'file_path': 'nonprod-health-tracking.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'nonprod-iaf-all-1',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwi-iaf-all-iaf_stg.main.legacy_referrals,dataservicesnonprod-wwi-iaf-all-iaf_stg.main.referee_coupon_codes',
+  'file_path': 'nonprod-iaf-all.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'nonprod-identity-qat2-1',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwi-identity-qat2-identity_service.identity.member_enrollment,dataservicesnonprod-wwi-identity-qat2-identity_service.identity.member',
+  'file_path': 'nonprod-identity-qat2.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'nonprod-kurbo-1',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwi-kurbo-staging.dataservicesnonprod-wwi-kurbo-staging-kurbo_staging,dataservicesnonprod-wwi-kurbo-staging-kurbo_staging.main.coach_chat_notifications',
+  'file_path': 'nonprod-kurbo-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-metadata-api',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwi-metadata-api-qa-experience_engine_qa.public.resource_subscriptions,dataservicesnonprod-wwi-metadata-api-qa-experience_engine_qa.public.knex_migrations',
+  'file_path': 'nonprod-metadata-api.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-mule-studio-tech',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwi-mule-integration-qa-mule_studio_tech.main.ca_location_status,dataservicesnonprod-wwi-mule-integration-qa-mule_studio_tech.main.ca_meeting_status',
+  'file_path': 'nonprod-mule-studio-tech.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-mule-workday-1',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwi-mule-integration-qa.dataservicesnonprod-wwi-mule-integration-qa-mule_workday,dataservicesnonprod-wwi-mule-integration-qa-mule_workday.main.jdh_referral_jobs',
+  'file_path': 'nonprod-mule-workday-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'nonprod-myday-journal-1',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwi-myday-journal-nonprod-myday_journal_nonprod.main.things_to_do',
+  'file_path': 'nonprod-myday-journal-staging.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'nonprod-peppermint',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwi-peppermint-integration-nonprod-peppermint_integration.waitlist.fields,dataservicesnonprod-wwi-peppermint-integration-nonprod-peppermint_integration.waitlist.users',
+  'file_path': 'nonprod-peppermint-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'nonprod-profile-service-events-1',
+  'KAFKA_TOPICS': 'corenonprod-profile-service-create-events-qat2,corenonprod-profile-service-delete-events-qat2',
+  'file_path': 'nonprod-profile-service-events.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'nonprod-purchase-funnel-1',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwi-upper-purchase-funnel-directus_staging.main.directus_operations,dataservicesnonprod-wwi-upper-purchase-funnel-directus_staging.main.directus_presets',
+  'file_path': 'nonprod-purchase-funnel.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'nonprod-sendbird-1',
+  'KAFKA_TOPICS': 'intgnonprod-sendbird_remove-qa,intgnonprod-sendbird_changed-qa',
+  'file_path': 'nonprod-sendbird-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'nonprod-sequence-weekend-1',
+  'KAFKA_TOPICS': 'dataservicesnonprod-seq-weekend-rds-nonprod-weekend_db.public.referral,dataservicesnonprod-seq-weekend-rds-nonprod-weekend_db.public.clinician_chart_review',
+  'file_path': 'nonprod-sequence-weekend.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'nonprod-studio-psqa-1',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwi-studio-psqa-studio.activity.checkIn,dataservicesnonprod-wwi-studio-psqa-studio.activity.event_queue',
+  'file_path': 'nonprod-studio_psqa.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'nonprod-studio-qa-1',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwi-studio-qa-studio.activity.checkIn',
+  'file_path': 'nonprod-studio_qa.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-subscription-services-1',
+  'KAFKA_TOPICS': 'growthnonprod-subscription-services-retention-qat2,growthnonprod-subscription-services-cancellation-qat2',
+  'file_path': 'nonprod-sub-services.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-uas-2',
+  'KAFKA_TOPICS': 'mobilenonprod-uas-members-event, mobilenonprod-uas-members-performance',
+  'file_path': 'nonprod-uas-2.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'nonprod-weight-milestones-1',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwi-weight-milestones-nonprod-weight_milestone.public.Earned,dataservicesnonprod-wwi-weight-milestones-nonprod-weight_milestone.public.Milestone',
+  'file_path': 'nonprod-weight-milestones-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'nonprod-wine-1',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wine-nonprod.QA-WINE.items',
+  'file_path': 'nonprod-wine-1.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'bienonprod-wwhs-general-1',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwhs-general-qa-wwhs_general_qa.client.vendors,dataservicesnonprod-wwhs-general-qa-wwhs_general_qa.members.MemberInfo',
+  'file_path': 'nonprod-wwhs-general.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'nonprod-wwi-datascience-meta-dev-1',
+  'KAFKA_TOPICS': 'dataservicesnonprod-wwi-datascience-meta-dev-datascience_meta.public.ai_chat_proto',
+  'file_path': 'nonprod-wwi-meta-dev.json'
+}
+{
+  'KAFKA_CONSUMER_GROUP_ID': 'nonprod-zoom-events-1',
+  'KAFKA_TOPICS': 'growthnonprod-zoom-webinar_participant_data,growthnonprod-zoom-meeting_participant_data',
+  'file_path': 'nonprod-zoom-events-1.json'
+}
